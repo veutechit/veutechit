@@ -5,21 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VEUTECH</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      width: 100vw;
-      background-color: #f4f4f4;
-    }
-    .embed-container {
-      position: relative;
+    html, body {
       width: 100%;
       height: 100%;
-      box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16);
+      margin: 0;
+      padding: 0;
+      background-color: black;
+    }
+    .embed-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       overflow: hidden;
     }
     iframe {
@@ -38,7 +36,6 @@
       loading="lazy"
       src="https://www.canva.com/design/DAGdgvb5y9I/M11PYSeeHcDjLuzqSPYxFQ/view?embed"
       allowfullscreen="allowfullscreen"
-      allow="fullscreen"
       title="Embedded Canva Design">
     </iframe>
   </div>
