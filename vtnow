@@ -40,7 +40,8 @@
       loading="lazy"
       src="https://www.canva.com/design/DAGdgvb5y9I/M11PYSeeHcDjLuzqSPYxFQ/view?embed"
       allowfullscreen="allowfullscreen"
-      allow="fullscreen">
+      allow="fullscreen"
+      title="Embedded Canva Design">
     </iframe>
   </div>
 </body>
